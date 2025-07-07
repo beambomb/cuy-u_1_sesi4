@@ -1,0 +1,43 @@
+* {
+  background-color: beige;
+}
+
+body {
+  justify-content: center; 
+  align-items: center; 
+}
+
+h1{
+    justify-self: center;
+}
+
+button {
+  background-color: rgb(203, 188, 159);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: beige;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.lampu {
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
